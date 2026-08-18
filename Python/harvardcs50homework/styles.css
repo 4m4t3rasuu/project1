@@ -1,0 +1,37 @@
+.search-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:50px;
+    color:darkgrey;
+}
+
+.button-row{
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    margin-top:10px;
+}
+.search-bar{
+ border-radius:23px;
+ height:50px;
+ width:500px;
+}
+
+.search-bar-extension{
+ border-radius:10px;
+ height:50px;
+}
+.links{
+    display:flex;
+    justify-content: right;
+    padding:15px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+
+.png{
+    display:flex;
+    justify-content:center;
+    margin-top:200px;
+}

@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <h1>Advanced Search</h1>
@@ -9,35 +10,30 @@
             <a href="index.html">Google Search</a>
         </div>
         <p>Find pages with</p>
-        
-        <div> 
-            <form action="https://www.google.com/search">
+
+     <form action="https://www.google.com/search"></form>   
+            <div> 
+
                 <label for="a">All of these words:</label>
                 <input type="text" id="a" name="as_q">
-            </form>
-        </div>
+            </div>
 
-        <div> 
-            <form action="https://www.google.com/search">
-                <label for="a">Exact word or phrase:</label>
+            <div> 
+                <label for="b">Exact word or phrase:</label>
                 <input type="text" id="b" name="as_epq">
-             </form>
-        </div>
+            </div>
 
-        <div> 
-            <form action="https://www.google.com/search">
+            <div> 
                 <label for="c">Any of these words:</label>
-                <input type="Any of these words:" id="c" name="as_oq">
-            </form>
-        </div>
+                <input type="text" id="c" name="as_oq">
+            </div>
 
-        <div> 
-            <form action="https://www.google.com/search">
+            <div> 
                 <label for="d">None of these words:</label>
-                <input type="None of these words:" id="d" name="as_eq">
-            </form>
-        </div>
-        <button type="submit">Advanced Search</button>
+                <input type="text" id="d" name="as_eq">
+            </div>
+            <button type="submit">Advanced Search</button>
+        </form>
     </body>
 </html>
 
