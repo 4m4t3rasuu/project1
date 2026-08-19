@@ -7,33 +7,35 @@
     <body>
         <h1>Advanced Search</h1>
         <div class="links">
-            <a href="index.html">Google Search</a>
+            <a href="index.html" class="adv-Gsearch">Google Search</a>
         </div>
         <p>Find pages with</p>
 
-     <form action="https://www.google.com/search"></form>   
+      <form action="https://www.google.com/search"> 
+        <div class="advanced-containers">
             <div> 
 
                 <label for="a">All of these words:</label>
-                <input type="text" id="a" name="as_q">
+                <input type="text" id="a" name="as_q" class="advanced-bars">
             </div>
 
             <div> 
                 <label for="b">Exact word or phrase:</label>
-                <input type="text" id="b" name="as_epq">
+                <input type="text" id="b" name="as_epq" class="advanced-bars">
             </div>
 
             <div> 
                 <label for="c">Any of these words:</label>
-                <input type="text" id="c" name="as_oq">
+                <input type="text" id="c" name="as_oq" class="advanced-bars">
             </div>
 
             <div> 
                 <label for="d">None of these words:</label>
-                <input type="text" id="d" name="as_eq">
+                <input type="text" id="d" name="as_eq" class="advanced-bars">
             </div>
-            <button type="submit">Advanced Search</button>
-        </form>
+        </div>
+            <button type="submit" class="blue-button">Advanced Search</button>
+      </form>
     </body>
 </html>
 

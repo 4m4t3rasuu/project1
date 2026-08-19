@@ -21,6 +21,7 @@
 .search-bar-extension{
  border-radius:10px;
  height:50px;
+ cursor:pointer;
 }
 .links{
     display:flex;
@@ -34,4 +35,24 @@
     display:flex;
     justify-content:center;
     margin-top:200px;
+}
+
+.advanced-containers{
+    display:flex;
+    flex-direction:column;
+    align-items:right;
+    margin:20px;
+}
+
+.advanced-bars{
+    margin-top:15px;
+    height:35px;
+    width:200px;
+}
+
+.blue-button{
+    border-radius:10px;
+    height:50px;
+    cursor:pointer;
+    background-color:rgb(162, 188, 237);
 }
